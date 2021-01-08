@@ -1,0 +1,229 @@
+body{
+    background-color: white;
+}
+.cab{
+    display: flex;
+    background-color: LightCoral;
+    height: 80px;
+}
+.c{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 240px;
+    width: 70px;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height: 83px;
+    width: 190px;
+    margin-right: 5px;
+}
+#a{
+    padding: 5px;
+    color: white;
+    font-family:  "Georgia";
+    font-size: 15px;
+}
+.box1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: center;
+}
+.formulario{
+    color: white;
+    text-decoration: none;  
+    margin-left: 40px;;
+    text-align: center;
+    font-family: "Georgia","Monaco";
+    font-size: 17px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+#car{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+#bv{
+    color: LightCoral; 
+    text-align: center;
+    font-family: "Georgia","Monaco";
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#imageminicio{
+    height: 120px;
+    width: 994px;
+}
+.pai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+}
+.pro{
+    width: 210px;
+    height: 190px;
+    justify-content:center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    border-width:10px;
+    border-color: lightcoral;
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    padding-top: 13px;
+    padding-bottom: 15px;
+}
+.mg{
+    text-decoration:none;
+    text-transform:none;
+    font-size: 20px;
+    font-weight: bold;
+    color: lightcoral;
+    text-align: center;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 0px;;
+}
+.nomeproduto{
+    font-size: 17px;
+    font-weight: bold;
+    color: #4F4F4F;
+    text-align: center;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.comprar{
+    color: white;
+    background-color: lightcoral;
+    text-decoration: none;
+    width: 120px;
+    height: 20px;
+    display: block;
+    font-family: "Raleway", "Verdana";
+    text-align: center;
+    font-size: 12px;
+    padding-top: 7px;
+}
+.roda{
+    height: 90px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.r{
+    font-family:  "Georgia";
+    font-size: 20px;
+    color: white;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+.rodape{
+    margin-top: 90px;
+    display: flex;
+    background-color: lightcoral;
+    height: 100px;
+}
+.sociais{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+.mae{
+    display: flex;
+    margin-top: 150px;
+    border-top-style: solid;
+    border-color: lightcoral;
+    border-bottom-style: solid;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.sale{
+    height: 200px;
+    width: 600px;
+}
+.infor{
+    font-size: 17px;
+    font-weight: bold;
+    color: #4F4F4F;
+    text-align: center;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.subroda{
+    margin-left: 40px;
+}
+.in{
+    font-size: 15px;
+    color: #4F4F4F;
+    text-align: center;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.linkform{
+    font-size: 15px;
+    color: lightcoral;
+    text-align: center;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.c2{
+    margin-top: 105px;
+    margin-right: 700px;
+    width: 30px;
+    height: 30px;
+}
+#f{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.f2{
+    border-top-style: solid;
+    border-color: lightcoral;
+    border-bottom-style: solid;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 300px;
+}
+.form_user{
+    margin-top: 40px;
+}
+.tab{
+    margin-bottom: 20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:25px;
+    padding-right: 25px;
+    font-weight:bold;
+    color:black;
+    text-align: center;
+}
+.rad{
+    margin-top: 10px;
+}
+.but{
+    margin-top: 30px;
+}
+.list{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4F4F4F;
+    text-align: center;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 0px;
+}
+
