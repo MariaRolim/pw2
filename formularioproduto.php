@@ -16,17 +16,47 @@
                     <div><a class="formulario"  href="formulariologin.html">LOGIN</a><br></div>
                     <div><a class="formulario"  href="sobrealoja.html">SOBRE A LOJA</a><br></div>
                     <div><a class="formulario"  href="administrador.html">ADMINISTRADOR</a><br></div>
-                    <div><a class="formulario"  href="listarprodutos.html">PRODUTOS</a><br></div>
+                    <div><a class="formulario"  href="listar_produtos.php">PRODUTOS</a><br></div>
                 </div>
                 <div id="car"><a href="carrinhodecompras.html"><img class="icon" src="carrinho.png" alt="Carrinho de compras"></a></div>
                 <div id="car"><a href="carrinhodecompras.html"><img class="icon" src="lupa.png" alt="Lupa"></a></div>
             </div>
             <p id="bv">Faça seu papel!</p>
     
+            <?php 
+
+                require_once "conexao.php";
+
+                $comando = "SELECT * FROM categoria";
+                $result = mysqli_query($conexao, $comando);
+            ?>
+            <center>
+                <form class="form_user"action="processa_cad_produto.php" method="POST">
+                    <input class="tab" type="number" name="preco_produto"  placeholder="Preço"><br>
+                    <input class="tab" type="text" name="nome_produto" placeholder="Nome do Produto"><br>
+                    <input class="tab" type="text" name="desc_produto" placeholder="Descrição"><br>
+                    <input class="tab" type="text" name="img_produto" placeholder="Imagem"><br>
+                    <input class="tab" type="number" name="estoque_min" placeholder="Estoque Minimo"><br>
+                    <input class="tab" type="number" name="estoque_max" placeholder="Estoque Maximo"><br>
+                    <input class="tab" type="number" name="quant_estoque" placeholder="Quantidade Estoque"><br>
+                    <select class="tab" name="cat_produto">
+                        <option>CATEGORIA</option>
+
+                        <?php
+                            while($linha = mysqli_fetch_assoc($result)){
+                                echo '<option value="'.$linha['idcategoria'].'">'.$linha['descricao'].'</option>';
+                            }
+                        ?>
+                    </select><br>
+                    
+                    <button class="but" type="submit">CADASTRAR PRODUTO</button> 
+                </form>
+            </center><br><br>
+    
             <div class="mae">
                 <div class="subroda"><p class="infor">SOBRE A LOJA</p><a class="in" href="sobrealoja.html">Quem somos</a><br><br><a class="in" href="Index.html">Pagina Inicial</a><br><br><a class="in" href="formulariocadastro.html">Cadastro</a><br><br><a class="in" href="formulariologin.html">Login</a></div>
                 <div class="subroda"><p class="infor">POLÍTICAS</p><a class="in" href="">Entregas</a><br><br><a class="in" href="">Promoções e descontos</a><br><br><a class="in" href="">Fretes</a><br><br><a class="in" href="">Trocas e Devoluções</a></div>
-                <div class="subroda"><p class="infor">PRODUTOS</p><a class="in" href="">Carrinho de compras</a><br><br><a class="in" href="">Produtos disponiveis</a><br><br><a class="in" href="">Queima de estoque</a><br><br><a class="in" href="">Produtos esgotados</a></div>
+                <div class="subroda"><p class="infor">PRODUTOS</p><a class="in" href="carrinhodecompras.html">Carrinho de compras</a><br><br><a class="in" href="listar_produtos.php">Produtos disponiveis</a><br><br><a class="in" href="">Queima de estoque</a><br><br><a class="in" href="">Produtos esgotados</a></div>
                 <div class="subroda"><p class="infor">FORMAS DE PAGAMENTO</p><img class="" src="formasdepag.png" alt="Formas de pagamento"></div>
             </div>
 
