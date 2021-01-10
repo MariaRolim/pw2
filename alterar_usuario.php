@@ -13,7 +13,7 @@
             <div class="box1">
                 <div><a class="formulario"  href="sobrealoja.html">SOBRE A LOJA</a><br></div>
                 <div><a class="formulario"  href="administrador.html">ADMINISTRADOR</a><br></div>
-                <div><a class="formulario"  href="listarprodutos.html">PRODUTOS</a><br></div>
+                <div><a class="formulario"  href="listar_produtos.php">PRODUTOS</a><br></div>
             </div>
             <div id="car"><a href="carrinhodecompras.html"><img class="icon" src="carrinho.png" alt="Carrinho de compras"></a></div>
             <div id="car"><a href="carrinhodecompras.html"><img class="icon" src="lupa.png" alt="Lupa"></a></div>
@@ -55,7 +55,7 @@
         <div class="mae">
             <div class="subroda"><p class="infor">SOBRE A LOJA</p><a class="in" href="sobrealoja.html">Quem somos</a><br><br><a class="in" href="Index.html">Pagina Inicial</a><br><br><a class="in" href="formulariocadastro.html">Cadastro</a><br><br><a class="in" href="formulariologin.html">Login</a></div>
             <div class="subroda"><p class="infor">POLÍTICAS</p><a class="in" href="">Entregas</a><br><br><a class="in" href="">Promoções e descontos</a><br><br><a class="in" href="">Fretes</a><br><br><a class="in" href="">Trocas e Devoluções</a></div>
-            <div class="subroda"><p class="infor">PRODUTOS</p><a class="in" href="">Carrinho de compras</a><br><br><a class="in" href="">Produtos disponiveis</a><br><br><a class="in" href="">Queima de estoque</a><br><br><a class="in" href="">Produtos esgotados</a></div>
+            <div class="subroda"><p class="infor">PRODUTOS</p><a class="in" href="carrinhodecompras.html">Carrinho de compras</a><br><br><a class="in" href="listar_produtos.php">Produtos disponiveis</a><br><br><a class="in" href="">Queima de estoque</a><br><br><a class="in" href="">Produtos esgotados</a></div>
             <div class="subroda"><p class="infor">FORMAS DE PAGAMENTO</p><img class="" src="formasdepag.png" alt="Formas de pagamento"></div>
         </div>
 
