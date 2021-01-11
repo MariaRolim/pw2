@@ -17,7 +17,7 @@ CREATE TABLE produto(
     imagem VARCHAR(60) NOT NULL,
     estoque_minimo INT(11) NOT NULL,
     estoque_maximo INT(11) NOT NULL,
-    quant_estoque INT,
+    quant_estoque INT NOT NULL,
     PRIMARY KEY(idproduto),
     FOREIGN KEY(idcategoria) REFERENCES categoria(idcategoria)
 );
